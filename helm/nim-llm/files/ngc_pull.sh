@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# This script is used to download a model from NGC and decrypt it if necessary
 set -euo pipefail
 echo "Starting NGC download script. Note: only glibc-based Linux works with NGC CLI -- NOT busybox or alpine"
 
