@@ -2,6 +2,8 @@
 # This script is used to download a model from NGC and decrypt it if necessary
 # It is intended to be used as an init container in a k8s pod
 # It will download the model to the specified path, and decrypt it if a key is provided
+# Tested with NGC CLI version 1.0.0
+# Required environment variables:
 set -euo pipefail
 echo "Starting NGC download script. Note: only glibc-based Linux works with NGC CLI -- NOT busybox or alpine"
 
