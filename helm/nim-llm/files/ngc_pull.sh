@@ -1,5 +1,7 @@
 #!/bin/bash
-
+# This script is used to download a model from NGC and decrypt it if necessary
+# Tested with NGC CLI version 1.0.0
+# Required environment variables:
 set -euo pipefail
 echo "Starting NGC download script. Note: only glibc-based Linux works with NGC CLI -- NOT busybox or alpine"
 
